@@ -11,58 +11,17 @@ const CTABanner = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           
-
-          {/* Dashboard mockup */}
-          <div ref={leftRef} className="flex-1 w-full">
-            <div className="bg-[#1E3E85] rounded-2xl shadow-2xl overflow-hidden">
-              {/* Fake sidebar + content */}
-              <div className="flex">
-                {/* Sidebar */}
-                <div className="w-14 bg-[#152d60] flex flex-col items-center py-4 gap-4">
-                  {[...Array(5)].map((_, i) => (
-                    <div key={i} className={`w-8 h-8 rounded-lg flex items-center justify-center ${i === 0 ? 'bg-[#52B4DA]' : 'bg-white/10'}`}>
-                      <div className="w-3 h-3 rounded-sm bg-white/70" />
-                    </div>
-                  ))}
-                </div>
-                {/* Main content */}
-                <div className="flex-1 p-4">
-                  <div className="flex items-center justify-between mb-4">
-                    <div>
-                      <p className="text-white/50 text-xs">Welcome back</p>
-                      <p className="text-white font-bold text-sm">Let's Find Work</p>
-                    </div>
-                    <div className="w-8 h-8 rounded-full bg-[#52B4DA] flex items-center justify-center text-white text-xs font-bold">RR</div>
-                  </div>
-                  {/* Job cards */}
-                  <div className="space-y-2">
-                    {[
-                      { title: 'Senior React Dev', company: 'TechCorp', tag: 'Remote', active: true },
-                      { title: 'UI/UX Designer', company: 'DesignLab', tag: 'Part-time', active: false },
-                      { title: 'Node.js Backend', company: 'StartupXYZ', tag: 'Full-time', active: false },
-                    ].map((job, i) => (
-                      <div key={i} className={`rounded-lg p-3 flex items-center justify-between ${job.active ? 'bg-[#52B4DA]/20 border border-[#52B4DA]/40' : 'bg-white/5'}`}>
-                        <div>
-                          <p className="text-white text-xs font-semibold">{job.title}</p>
-                          <p className="text-white/50 text-xs">{job.company}</p>
-                        </div>
-                        <span className={`text-xs px-2 py-0.5 rounded-full font-medium ${job.active ? 'bg-[#52B4DA] text-white' : 'bg-white/10 text-white/70'}`}>{job.tag}</span>
-                      </div>
-                    ))}
-                  </div>
-                  {/* Apply bar */}
-                  <div className="mt-3 bg-[#52B4DA] rounded-lg p-2 flex items-center justify-between">
-                    <span className="text-white text-xs font-semibold">Quick Apply</span>
-                    <div className="w-5 h-5 rounded-full bg-white flex items-center justify-center">
-                      <svg className="w-3 h-3 text-[#1E3E85]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          {/* Image side — LEFT */}
+          <div ref={leftRef} className="flex-1 flex justify-left lg:justify-start rounded">
+            <img
+              src="/find-work.png"
+              alt="Get started"
+              loading="lazy"
+              className="w-full max-w-sm lg:max-w-md object-contain mb-[-80px] ml-[-90px] rounded-3xl shadow-2xl"
+            />
           </div>
+
+
 
           {/* Text side */}
           <div ref={rightRef} className="flex-1 text-center lg:text-left">
