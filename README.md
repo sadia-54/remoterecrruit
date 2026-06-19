@@ -2,9 +2,9 @@
 
 A pixel-faithful recreation of the RemoteRecruit Features page built with React.js and Tailwind CSS.
 
-## 🚀 Live Demo
+## Live Demo
 
-[Deployed on Vercel →](https://your-deployed-url.vercel.app)
+[Deployed on Vercel →]([https://your-deployed-url.vercel.app](https://remoterecrruit-cpcf.vercel.app/))
 
 ## 🛠 Project Setup
 
@@ -16,7 +16,7 @@ A pixel-faithful recreation of the RemoteRecruit Features page built with React.
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/remoterecrruit.git
+git clone https://github.com/sadia-54/remoterecrruit.git
 cd remoterecrruit
 
 # Install dependencies
@@ -41,18 +41,18 @@ npm install -g vercel
 vercel
 ```
 
-## 📦 Framework & Libraries
+## Framework & Libraries
 
 | Library | Version | Purpose |
 |---|---|---|
-| React.js | ^18.x | UI framework |
-| Tailwind CSS | ^3.x | Utility-first styling |
-| PostCSS | ^8.x | CSS processing |
-| Autoprefixer | ^10.x | CSS vendor prefixes |
+| React.js | ^19.2.7 | UI framework |
+| Tailwind CSS | ^3.4.19 | Utility-first styling |
+| PostCSS | ^8.5.15 | CSS processing |
+| Autoprefixer | ^10.5.0 | CSS vendor prefixes |
 
 > No additional animation library needed — scroll animations are implemented with native `IntersectionObserver` API for optimal performance.
 
-## 🏗 Architecture
+## Architecture
 
 ```
 src/
@@ -73,7 +73,7 @@ src/
 └── index.css               # Tailwind directives + Google Fonts
 ```
 
-## ✅ Features Implemented
+## Features Implemented
 
 - **Fully responsive** — mobile, tablet, desktop
 - **Scroll animations** — fade-in and slide-up via IntersectionObserver
@@ -83,18 +83,9 @@ src/
 - **Accessible** — semantic HTML, aria labels, keyboard nav
 - **Component-based** — reusable, composable architecture
 
-## ⚠️ Known Issues / Limitations
+## Known Issues / Limitations
 
 - Profile images and dashboard screenshots use styled placeholder components instead of actual images (no image assets were provided in the brief)
 - FAQ answers use representative placeholder content as no copy was provided
 - Google Fonts (Inter) requires an internet connection to load; a system font fallback is configured
 
-## 🎨 Design Tokens
-
-| Token | Value |
-|---|---|
-| Navy (primary) | `#1E3E85` |
-| Sky blue (accent) | `#52B4DA` |
-| Pink (CTA) | `#FF4F8B` |
-| Purple | `#3159D3` |
-| Lavender (bg) | `#E8EEFF` |
