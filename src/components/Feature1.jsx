@@ -35,7 +35,7 @@ const Feature1 = () => {
   const imgRef  = useScrollReveal('right');
 
   return (
-    <section id="home" className="py-16 md:py-24 bg-white overflow-x-hidden">
+    <section id="home" className="py-12 md:py-20 bg-white overflow-x-hidden">
       <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-20 xl:px-28">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16 xl:gap-24">
 
@@ -45,25 +45,16 @@ const Feature1 = () => {
               Global Reach
             </span>
 
-            <h2 className="text-[2rem] sm:text-[2.4rem] lg:text-[2.6rem] xl:text-[2.9rem] font-extrabold text-gray-900 leading-[1.12] mb-5">
-              The First Fully Global Job Board,{' '}
-              <span style={{ color: '#1E3E85' }}>Anywhere, Ever</span>
+            <h2 className="text-[1.5rem] sm:text-[1.8rem] lg:text-[2rem] xl:text-[2.5rem] font-semibold text-gray-900 leading-[1.12] mb-5">
+              The First Fully Global Job Board, Anywhere, Ever
             </h2>
 
-            <p className="text-gray-500 text-base leading-relaxed mb-8 max-w-md mx-auto lg:mx-0">
+            <p className="text-gray-500 text-base leading-relaxed mb-8 mt-8 max-w-md mx-auto lg:mx-0">
               RemoteRecruit connects candidates with opportunities around the world. With today's
               remote-first workforce, you need to be able to find the best jobs and the best people
               for them, wherever they may be.
             </p>
 
-            <div className="flex justify-center lg:justify-start">
-              <button className="inline-flex items-center gap-2 bg-[#1E3E85] text-white text-sm font-semibold px-7 py-3.5 rounded-full hover:bg-[#2a52a8] active:scale-95 transition-all duration-200 shadow-lg shadow-[#1E3E85]/30">
-                Get Started
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </button>
-            </div>
           </div>
 
           {/* ══════════════  RIGHT — visual  ══════════════ */}
@@ -110,7 +101,7 @@ const Feature1 = () => {
                 <img
                   src="/r-badge.png"
                   alt="RemoteRecruit badge"
-                  className="w-50 h-50 rounded-full"
+                  className="w-[60%] h-[60%] rounded-full"
                 />
               </div>
 

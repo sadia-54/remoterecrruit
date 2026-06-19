@@ -11,22 +11,17 @@ const Feature3 = () => {
         <div className="flex flex-col lg:flex-row items-center gap-16">
           {/* Text side */}
           <div ref={textRef} className="flex-1">
-            <span className="inline-block bg-purple-50 text-purple-600 text-xs font-semibold px-3 py-1 rounded-full mb-4 tracking-wide uppercase">
+            <span className="inline-block bg-[#C2EEFF] text-black text-xs font-semibold px-5 py-3 rounded-full mb-8">
               Custom Profile
             </span>
-            <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 leading-tight mb-5">
+            <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 leading-tight mb-8">
               Showcase Your Talents
             </h2>
             <p className="text-gray-500 text-base leading-relaxed mb-6">
               Personalize your profile with everything that makes you unique. Add an introductory
               video and other media for a personal touch that stands out to employers and candidates.
             </p>
-            <button className="inline-flex items-center gap-2 bg-[#FF4F8B] text-white text-sm font-semibold px-6 py-3 rounded-full hover:bg-[#e8377a] transition-colors duration-200 shadow-md">
-              Build Your Profile
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </button>
+
           </div>
 
           {/* Profile card mockup */}
@@ -78,8 +73,8 @@ const Feature3 = () => {
             </div>
 
             {/* Decorative dots */}
-            <div className="absolute -top-4 -right-4 w-16 h-16 rounded-full bg-[#FF4F8B]/15 z-0" />
-            <div className="absolute -bottom-4 left-4 w-12 h-12 rounded-full bg-[#52B4DA]/20 z-0" />
+            <div className="absolute -top-4 -right-4 w-16 h-16 rounded-full bg-gradient-to-r from-[#52B4DA] to-[#1E3E85] z-0" />
+            <div className="absolute -bottom-4 left-4 w-12 h-12 rounded-full bg-gradient-to-r from-[#52B4DA] to-[#1E3E85] z-0" />
           </div>
         </div>
       </div>

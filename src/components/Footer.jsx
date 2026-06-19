@@ -14,8 +14,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
         {/* Logo */}
         <div className="flex flex-col leading-none">
-          <span className="text-white font-bold text-xl tracking-tight">Remote</span>
-          <span className="text-[#52B4DA] font-bold text-xl tracking-tight">Recruit</span>
+          <img src="/logo.png" alt="RemoteRecruit" className="w-24 h-auto" />
         </div>
 
         <p className="text-white/40 text-sm text-center">

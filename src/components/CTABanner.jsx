@@ -7,8 +7,10 @@ const CTABanner = () => {
 
   return (
     <section className="py-20 overflow-hidden" style={{ background: 'linear-gradient(135deg, #E8EEFF 0%, #dde8ff 100%)' }}>
+      
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center gap-12">
+          
 
           {/* Dashboard mockup */}
           <div ref={leftRef} className="flex-1 w-full">
@@ -49,10 +51,10 @@ const CTABanner = () => {
                     ))}
                   </div>
                   {/* Apply bar */}
-                  <div className="mt-3 bg-[#FF4F8B] rounded-lg p-2 flex items-center justify-between">
+                  <div className="mt-3 bg-[#52B4DA] rounded-lg p-2 flex items-center justify-between">
                     <span className="text-white text-xs font-semibold">Quick Apply</span>
                     <div className="w-5 h-5 rounded-full bg-white flex items-center justify-center">
-                      <svg className="w-3 h-3 text-[#FF4F8B]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-3 h-3 text-[#1E3E85]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                       </svg>
                     </div>
@@ -64,14 +66,14 @@ const CTABanner = () => {
 
           {/* Text side */}
           <div ref={rightRef} className="flex-1 text-center lg:text-left">
-            <p className="text-[#52B4DA] text-sm font-semibold uppercase tracking-widest mb-3">Are you ready?</p>
-            <h2 className="text-3xl md:text-4xl font-extrabold text-[#1E3E85] leading-tight mb-4">
+            <p className="text-[#1E3E85] text-sm font-semibold uppercase tracking-widest mb-3">Are you ready?</p>
+            <h2 className="text-2xl md:text-3xl font-semibold text-black leading-tight mb-4">
               Help is only a few clicks away!
             </h2>
             <p className="text-gray-500 mb-8 leading-relaxed">
               Click below to get set up super quickly and find help now.
             </p>
-            <button className="inline-flex items-center gap-3 bg-[#1E3E85] text-white text-sm font-semibold px-7 py-3.5 rounded-full hover:bg-[#2a52a8] transition-all duration-200 shadow-xl hover:shadow-2xl hover:-translate-y-0.5">
+            <button className="inline-flex items-center gap-3 bg-[#52B4DA] text-[#1E3E85] text-sm font-semibold px-7 py-3.5 rounded-full hover:bg-[#52B4DA5] transition-all duration-200 shadow-xl hover:shadow-2xl hover:-translate-y-0.5">
               <span className="w-5 h-5 rounded-full bg-[#52B4DA] flex items-center justify-center">
                 <svg className="w-3 h-3 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M8 5v14l11-7z" />
