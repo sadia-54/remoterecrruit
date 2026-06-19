@@ -85,7 +85,7 @@ src/
 
 ## Known Issues / Limitations
 
-- Profile images and dashboard screenshots use styled placeholder components instead of actual images (no image assets were provided in the brief)
+- Profile images use styled placeholder components instead of actual images (no image assets were provided in the brief)
 - FAQ answers use representative placeholder content as no copy was provided
 - Google Fonts (Inter) requires an internet connection to load; a system font fallback is configured
 
